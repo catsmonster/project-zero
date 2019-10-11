@@ -1,11 +1,12 @@
 import React from 'react';
+import "./Nav.css";
 
-const Nav = () => {
+const Nav = ({onRouteChange}) => {
     return (
-      <div>
-          <h2>option 1</h2>
-          <h2>option 2</h2>
-      </div>
+      <nav style={{display: 'flex', justifyContent: 'flex-end'}}>
+          <p className='nav' onClick={() => onRouteChange('first')}>option 1</p>
+          <p className='nav' onClick={() => onRouteChange('second')}>option 2</p>
+      </nav>
     );
 };
 

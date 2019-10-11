@@ -1,9 +1,11 @@
 import React from 'react';
+import './First.css';
 
 const First = () => {
+
     return (
-        <div>
-            <p>this is first</p>
+        <div id='background1'>
+
         </div>
     );
 };
