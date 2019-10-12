@@ -1,5 +1,74 @@
-#background1 {
-    background: lightblue url("https://images.newscientist.com/wp-content/uploads/2019/07/04114207/viirsdayhurricane-1.jpg") no-repeat center;
+.container {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.state1 {
+    background: lightblue url("https://www.scitecheuropa.eu/wp-content/uploads/2019/07/ClaudioVentrella.jpg") no-repeat center;
     background-size: cover;
     height: 90vh;
+    position: relative;
+    width: 100%;
+    animation-name: example3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes example3 {
+    0% {opacity: 0; left: -1000px}
+    30% {opacity: 0.9}
+    100% {opacity: 1; left: 0}
+}
+
+.newClass1 {
+    background: aqua url("https://images.squarespace-cdn.com/content/v1/58817d60d2b85782338743f1/1504491920042-Q4MH1BFC4Y1Z6HKWFO0J/ke17ZwdGBToddI8pDm48kMuNI7TYmAmcFvkbSOsmSFp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UdPQYSMOX3GTOJPeWjROptyJBbowpFVI2soJVioWMj-1lPRhrjbf-ufqwsSWgrw9rg/gis+header+1.jpg?format=1500w") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    height: 90vh;
+    animation-name: example4;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    z-index: -1;
+    width: 100%;
+}
+
+@keyframes example4 {
+    0% {left: 0}
+    100% {left: 1000px}
+}
+
+
+.state2 {
+    background: aqua url("https://images.squarespace-cdn.com/content/v1/58817d60d2b85782338743f1/1504491920042-Q4MH1BFC4Y1Z6HKWFO0J/ke17ZwdGBToddI8pDm48kMuNI7TYmAmcFvkbSOsmSFp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UdPQYSMOX3GTOJPeWjROptyJBbowpFVI2soJVioWMj-1lPRhrjbf-ufqwsSWgrw9rg/gis+header+1.jpg?format=1500w") no-repeat center;
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+    0% {opacity: 0; left: 1000px}
+    30% {opacity: 0.9}
+    100% {opacity: 1; left: 0}
+}
+
+.newClass {
+    z-index: -1;
+    background: lightblue url("https://www.scitecheuropa.eu/wp-content/uploads/2019/07/ClaudioVentrella.jpg") no-repeat center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example2 {
+    0% {left: 0}
+    100% {left: -1000px}
+}
+

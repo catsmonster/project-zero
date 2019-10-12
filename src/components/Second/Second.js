@@ -1,10 +1,15 @@
 import React from 'react';
-import './Second.css';
+import '../First/First.css';
 
-const Second = () => {
+const Second = ({classActive, onRouteChange}) => {
     return (
-        <div id='background2'>
+        <div className='container'>
+            <div className='newClass'>
 
+            </div>
+            <div className={classActive}>
+
+            </div>
         </div>
     );
 };
