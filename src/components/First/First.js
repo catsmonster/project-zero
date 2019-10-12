@@ -6,7 +6,7 @@ const First = ({classActive}) => {
         <div>
             <div className='newClass1'>
             </div>
-            <div className={classActive}>
+            <div className={`state1 ${classActive}`}>
             </div>
         </div>
     );

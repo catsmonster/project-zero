@@ -6,6 +6,9 @@
     height: 90vh;
     position: relative;
     width: 100%;
+}
+
+.state3 {
     animation-name: example3;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -13,7 +16,7 @@
 
 @keyframes example3 {
     0% {opacity: 0; left: -1000px}
-    30% {opacity: 0.9}
+    30% {opacity: 1}
     100% {opacity: 1; left: 0}
 }
 

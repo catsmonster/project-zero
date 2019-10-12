@@ -6,7 +6,7 @@ const Second = ({classActive}) => {
         <div>
             <div className='newClass'>
             </div>
-            <div className={classActive}>
+            <div className='state2'>
             </div>
         </div>
     );

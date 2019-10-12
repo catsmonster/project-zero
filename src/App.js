@@ -11,7 +11,6 @@ function App() {
 
   const [classActive, setClassActive] = useState('state1');
 
-
   const onRouteChange = (route) => {
     setRoute(route);
   };
