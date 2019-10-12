@@ -1,10 +1,13 @@
 import React from 'react';
-import './Second.css';
+import '../First/First.css';
 
 const Second = () => {
     return (
-        <div id='background2'>
-
+        <div>
+            <div className='newClass'>
+            </div>
+            <div className='state2'>
+            </div>
         </div>
     );
 };

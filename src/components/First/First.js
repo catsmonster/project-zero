@@ -1,11 +1,13 @@
 import React from 'react';
 import './First.css';
 
-const First = () => {
-
+const First = ({classActive}) => {
     return (
-        <div id='background1'>
-
+        <div>
+            <div className='newClass1'>
+            </div>
+            <div className={`state1 ${classActive}`}>
+            </div>
         </div>
     );
 };

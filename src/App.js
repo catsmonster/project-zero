@@ -9,18 +9,22 @@ function App() {
 
   const [route, setRoute] = useState("first");
 
-  const onRouteChange = (route) => {
+  const [classActive, setClassActive] = useState('state1');
 
+  const [wasClicked, setWasClicked] = useState(false);
+
+  const onRouteChange = (route) => {
     setRoute(route);
   };
 
+
   return (
-    <div className="App">
-      <Nav onRouteChange={onRouteChange}/>
+    <div className='App'>
+      <Nav setWasClicked={setWasClicked} wasClicked={wasClicked} setClassActive={setClassActive} onRouteChange={onRouteChange}/>
       {route === 'first' ?
-      <First onRouteChange={onRouteChange}/>
+          <First classActive={classActive}/>
       :
-      <Second onRouteChange={onRouteChange}/>
+          <Second/>
       }
     </div>
   );
