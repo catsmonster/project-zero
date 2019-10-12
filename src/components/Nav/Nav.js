@@ -11,6 +11,7 @@ const Nav = ({onRouteChange, setClassActive, wasClicked, setWasClicked}) => {
           setWasClicked(true);
           }}>Home</p>
           <p className='nav grow' onClick={() => {onRouteChange('second');
+          setWasClicked(true);
           }}>Tables</p>
       </nav>
     );
