@@ -21,9 +21,9 @@ function App() {
     <div className='App'>
       <Nav setClassActive={setClassActive} onRouteChange={onRouteChange}/>
       {route === 'first' ?
-          <First classActive={classActive} onRouteChange={onRouteChange}/>
+          <First classActive={classActive}/>
       :
-          <Second classActive={classActive} onRouteChange={onRouteChange}/>
+          <Second classActive={classActive}/>
       }
     </div>
   );

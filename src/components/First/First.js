@@ -1,9 +1,9 @@
 import React from 'react';
 import './First.css';
 
-const First = ({classActive, onRouteChange}) => {
+const First = ({classActive}) => {
     return (
-        <div className='container'>
+        <div>
             <div className='newClass1'>
             </div>
             <div className={classActive}>
