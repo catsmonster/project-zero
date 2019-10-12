@@ -1,7 +1,7 @@
 import React from 'react';
 import '../First/First.css';
 
-const Second = ({classActive}) => {
+const Second = () => {
     return (
         <div>
             <div className='newClass'>

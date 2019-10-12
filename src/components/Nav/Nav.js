@@ -1,15 +1,17 @@
 import React from 'react';
 import "./Nav.css";
 
-const Nav = ({onRouteChange, setClassActive}) => {
+const Nav = ({onRouteChange, setClassActive, wasClicked, setWasClicked}) => {
     return (
       <nav style={{display: 'flex', justifyContent: 'flex-end'}}>
-          <p className='nav' onClick={() => {onRouteChange('first');
-          setClassActive('state3');
-          }}>option 1</p>
-          <p className='nav' onClick={() => {onRouteChange('second');
-          setClassActive('state2');
-          }}>option 2</p>
+          <p className='nav grow' onClick={() => {onRouteChange('first');
+          if (wasClicked) {
+              setClassActive('state3');
+          }
+          setWasClicked(true);
+          }}>Home</p>
+          <p className='nav grow' onClick={() => {onRouteChange('second');
+          }}>Tables</p>
       </nav>
     );
 };

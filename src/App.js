@@ -11,6 +11,8 @@ function App() {
 
   const [classActive, setClassActive] = useState('state1');
 
+  const [wasClicked, setWasClicked] = useState(false);
+
   const onRouteChange = (route) => {
     setRoute(route);
   };
@@ -18,11 +20,11 @@ function App() {
 
   return (
     <div className='App'>
-      <Nav setClassActive={setClassActive} onRouteChange={onRouteChange}/>
+      <Nav setWasClicked={setWasClicked} wasClicked={wasClicked} setClassActive={setClassActive} onRouteChange={onRouteChange}/>
       {route === 'first' ?
           <First classActive={classActive}/>
       :
-          <Second classActive={classActive}/>
+          <Second/>
       }
     </div>
   );

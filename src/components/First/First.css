@@ -3,14 +3,14 @@
 .state1 {
     background: lightblue url("https://www.scitecheuropa.eu/wp-content/uploads/2019/07/ClaudioVentrella.jpg") no-repeat center;
     background-size: cover;
-    height: 90vh;
+    height: 85vh;
     position: relative;
     width: 100%;
 }
 
 .state3 {
     animation-name: example3;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -24,9 +24,9 @@
     background: aqua url("https://images.squarespace-cdn.com/content/v1/58817d60d2b85782338743f1/1504491920042-Q4MH1BFC4Y1Z6HKWFO0J/ke17ZwdGBToddI8pDm48kMuNI7TYmAmcFvkbSOsmSFp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UdPQYSMOX3GTOJPeWjROptyJBbowpFVI2soJVioWMj-1lPRhrjbf-ufqwsSWgrw9rg/gis+header+1.jpg?format=1500w") no-repeat center;
     background-size: cover;
     position: absolute;
-    height: 90vh;
+    height: 85vh;
     animation-name: example4;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
     z-index: -1;
     width: 100%;
@@ -42,9 +42,9 @@
     background: aqua url("https://images.squarespace-cdn.com/content/v1/58817d60d2b85782338743f1/1504491920042-Q4MH1BFC4Y1Z6HKWFO0J/ke17ZwdGBToddI8pDm48kMuNI7TYmAmcFvkbSOsmSFp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UdPQYSMOX3GTOJPeWjROptyJBbowpFVI2soJVioWMj-1lPRhrjbf-ufqwsSWgrw9rg/gis+header+1.jpg?format=1500w") no-repeat center;
     background-size: cover;
     position: relative;
-    height: 90vh;
+    height: 85vh;
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -58,11 +58,11 @@
     z-index: -1;
     background: lightblue url("https://www.scitecheuropa.eu/wp-content/uploads/2019/07/ClaudioVentrella.jpg") no-repeat center;
     background-size: cover;
-    height: 90vh;
+    height: 85vh;
     width: 100%;
     position: absolute;
     animation-name: example2;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
