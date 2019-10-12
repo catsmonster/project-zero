@@ -71,3 +71,64 @@
     100% {left: -100%}
 }
 
+.fog {
+     z-index: 1000;
+     background: url("./fog-png-transparent-1-transparent.png") no-repeat center;
+     background-size: cover;
+     height: 85vh;
+     width: 280%;
+     position: absolute;
+     animation-name: fog;
+     animation-duration: 1.5s;
+     animation-fill-mode: forwards;
+ }
+
+@keyframes fog {
+    0% {left: -200%; opacity: 0}
+    50% {opacity: 1}
+    100% {left: 0; opacity: 0}
+
+}
+
+.fog2 {
+    z-index: 100;
+    background: url("./fog-png-transparent-1-transparent.png") no-repeat center;
+    background-size: cover;
+    height: 85vh;
+    width: 280%;
+    position: absolute;
+    animation-name: fog;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.fog3 {
+    z-index: 1000;
+    background: url("./fog-png-transparent-1-transparent.png") no-repeat center;
+    background-size: cover;
+    height: 85vh;
+    width: 280%;
+    position: absolute;
+    animation-name: fog3;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fog3 {
+    0% {left: 0; opacity: 0}
+    50% {opacity: 1}
+    100% {left: -180%; opacity: 0}
+
+}
+
+.fog4 {
+    z-index: 100;
+    background: url("./fog-png-transparent-1-transparent.png") no-repeat center;
+    background-size: cover;
+    height: 85vh;
+    width: 280%;
+    position: absolute;
+    animation-name: fog3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
