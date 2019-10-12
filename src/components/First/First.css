@@ -15,13 +15,13 @@
 }
 
 @keyframes example3 {
-    0% {opacity: 0; left: -1000px}
+    0% {opacity: 0; left: -100%}
     30% {opacity: 1}
     100% {opacity: 1; left: 0}
 }
 
 .newClass1 {
-    background: aqua url("https://images.squarespace-cdn.com/content/v1/58817d60d2b85782338743f1/1504491920042-Q4MH1BFC4Y1Z6HKWFO0J/ke17ZwdGBToddI8pDm48kMuNI7TYmAmcFvkbSOsmSFp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UdPQYSMOX3GTOJPeWjROptyJBbowpFVI2soJVioWMj-1lPRhrjbf-ufqwsSWgrw9rg/gis+header+1.jpg?format=1500w") no-repeat center;
+    background: aqua url("https://mymodernmet.com/wp/wp-content/uploads/2019/09/matt-molloy-sky-photographs-feat-big.jpg") no-repeat center;
     background-size: cover;
     position: absolute;
     height: 85vh;
@@ -34,12 +34,12 @@
 
 @keyframes example4 {
     0% {left: 0}
-    100% {left: 1000px}
+    100% {left: 100%}
 }
 
 
 .state2 {
-    background: aqua url("https://images.squarespace-cdn.com/content/v1/58817d60d2b85782338743f1/1504491920042-Q4MH1BFC4Y1Z6HKWFO0J/ke17ZwdGBToddI8pDm48kMuNI7TYmAmcFvkbSOsmSFp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UdPQYSMOX3GTOJPeWjROptyJBbowpFVI2soJVioWMj-1lPRhrjbf-ufqwsSWgrw9rg/gis+header+1.jpg?format=1500w") no-repeat center;
+    background: aqua url("https://mymodernmet.com/wp/wp-content/uploads/2019/09/matt-molloy-sky-photographs-feat-big.jpg") no-repeat center;
     background-size: cover;
     position: relative;
     height: 85vh;
@@ -49,7 +49,7 @@
 }
 
 @keyframes example {
-    0% {opacity: 0; left: 1000px}
+    0% {opacity: 0; left: 100%}
     30% {opacity: 0.9}
     100% {opacity: 1; left: 0}
 }
@@ -68,6 +68,6 @@
 
 @keyframes example2 {
     0% {left: 0}
-    100% {left: -1000px}
+    100% {left: -100%}
 }
 
