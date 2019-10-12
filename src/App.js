@@ -21,8 +21,8 @@ function App() {
   return (
     <div className='App'>
       <Nav setWasClicked={setWasClicked} wasClicked={wasClicked} setClassActive={setClassActive} onRouteChange={onRouteChange}/>
-      {route === 'first' ?
-          <First classActive={classActive}/>
+      {route === 'first'?
+          <First wasClicked={wasClicked} classActive={classActive}/>
       :
           <Second/>
       }
