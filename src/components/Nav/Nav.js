@@ -7,8 +7,8 @@ const Nav = ({onRouteChange, setClassActive, wasClicked, setWasClicked, setFinis
           <p className='nav grow' onClick={() => {onRouteChange('first');
           if (wasClicked) {
               setClassActive('state3');
+              setFinishedLoading1(false);
           }
-          setFinishedLoading1(false);
           setWasClicked(true);
           }}>Home</p>
           <p className='nav grow' onClick={() => {onRouteChange('second');
