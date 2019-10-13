@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/catsmonster/project-zero/static/css/main.0b37810f.chunk.css",
-    "main.js": "/catsmonster/project-zero/static/js/main.4b550003.chunk.js",
-    "main.js.map": "/catsmonster/project-zero/static/js/main.4b550003.chunk.js.map",
-    "runtime-main.js": "/catsmonster/project-zero/static/js/runtime-main.fc8d0fb7.js",
-    "runtime-main.js.map": "/catsmonster/project-zero/static/js/runtime-main.fc8d0fb7.js.map",
-    "static/css/2.eb45ad44.chunk.css": "/catsmonster/project-zero/static/css/2.eb45ad44.chunk.css",
-    "static/js/2.5934e8f9.chunk.js": "/catsmonster/project-zero/static/js/2.5934e8f9.chunk.js",
-    "static/js/2.5934e8f9.chunk.js.map": "/catsmonster/project-zero/static/js/2.5934e8f9.chunk.js.map",
-    "index.html": "/catsmonster/project-zero/index.html",
-    "precache-manifest.bfbe9ec22d8ce43c18c63e3c0c42e8c9.js": "/catsmonster/project-zero/precache-manifest.bfbe9ec22d8ce43c18c63e3c0c42e8c9.js",
-    "service-worker.js": "/catsmonster/project-zero/service-worker.js",
-    "static/css/2.eb45ad44.chunk.css.map": "/catsmonster/project-zero/static/css/2.eb45ad44.chunk.css.map",
-    "static/css/main.0b37810f.chunk.css.map": "/catsmonster/project-zero/static/css/main.0b37810f.chunk.css.map",
-    "static/media/First.css": "/catsmonster/project-zero/static/media/fog-png-transparent-1-transparent.1fb8be23.png"
+    "main.css": "/project-zero/static/css/main.921ee184.chunk.css",
+    "main.js": "/project-zero/static/js/main.9e26f42e.chunk.js",
+    "main.js.map": "/project-zero/static/js/main.9e26f42e.chunk.js.map",
+    "runtime-main.js": "/project-zero/static/js/runtime-main.3f05f7dc.js",
+    "runtime-main.js.map": "/project-zero/static/js/runtime-main.3f05f7dc.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/project-zero/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.5934e8f9.chunk.js": "/project-zero/static/js/2.5934e8f9.chunk.js",
+    "static/js/2.5934e8f9.chunk.js.map": "/project-zero/static/js/2.5934e8f9.chunk.js.map",
+    "index.html": "/project-zero/index.html",
+    "precache-manifest.f4cd63a697ea73c9149873ae13fc99a6.js": "/project-zero/precache-manifest.f4cd63a697ea73c9149873ae13fc99a6.js",
+    "service-worker.js": "/project-zero/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/project-zero/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.921ee184.chunk.css.map": "/project-zero/static/css/main.921ee184.chunk.css.map",
+    "static/media/First.css": "/project-zero/static/media/fog-png-transparent-1-transparent.1fb8be23.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc8d0fb7.js",
+    "static/js/runtime-main.3f05f7dc.js",
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.5934e8f9.chunk.js",
-    "static/css/main.0b37810f.chunk.css",
-    "static/js/main.4b550003.chunk.js"
+    "static/css/main.921ee184.chunk.css",
+    "static/js/main.9e26f42e.chunk.js"
   ]
 }
