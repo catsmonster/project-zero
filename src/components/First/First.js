@@ -1,7 +1,7 @@
 import React from 'react';
 import './First.css';
 
-const First = ({classActive, wasClicked, finishedLoading1, setFinishedLoading1}) => {
+const First = ({classActive, wasClicked, finishedLoading1, setFinishedLoading1, route}) => {
     const setFirstState = () => {
         return (
             <div>
@@ -14,7 +14,7 @@ const First = ({classActive, wasClicked, finishedLoading1, setFinishedLoading1})
     };
 
     const showFog1 = () => {
-        if (!finishedLoading1) {
+        if (!finishedLoading1 || route !== 'second') {
             setTimeout(hideFog, 2000);
             return (
                 <div>
