@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66761e7b4618a9665a26c527a0eb3627",
+    "revision": "88c1fbf79a81d7735b8dc682361d7a34",
     "url": "/project-zero/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project-zero/static/css/2.eb45ad44.chunk.css"
   },
   {
-    "revision": "1bfd0c4f713fea9f02bc",
-    "url": "/project-zero/static/css/main.921ee184.chunk.css"
+    "revision": "bbe9006468fdaa42532c",
+    "url": "/project-zero/static/css/main.16b9f639.chunk.css"
   },
   {
     "revision": "b85a474cd84ad67ab20e",
     "url": "/project-zero/static/js/2.5934e8f9.chunk.js"
   },
   {
-    "revision": "1bfd0c4f713fea9f02bc",
+    "revision": "bbe9006468fdaa42532c",
     "url": "/project-zero/static/js/main.46a3f7af.chunk.js"
   },
   {
