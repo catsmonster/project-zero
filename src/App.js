@@ -13,6 +13,10 @@ function App() {
 
   const [wasClicked, setWasClicked] = useState(false);
 
+  const [finishedLoading1, setFinishedLoading1] = useState(false);
+
+  const [finishedLoading2, setFinishedLoading2] = useState(false);
+
   const onRouteChange = (route) => {
     setRoute(route);
   };
@@ -20,11 +24,11 @@ function App() {
 
   return (
     <div className='App'>
-      <Nav setWasClicked={setWasClicked} wasClicked={wasClicked} setClassActive={setClassActive} onRouteChange={onRouteChange}/>
+      <Nav setFinishedLoading1={setFinishedLoading1} setFinishedLoading2={setFinishedLoading2} setWasClicked={setWasClicked} wasClicked={wasClicked} setClassActive={setClassActive} onRouteChange={onRouteChange}/>
       {route === 'first'?
-          <First wasClicked={wasClicked} classActive={classActive}/>
+          <First setFinishedLoading1={setFinishedLoading1} finishedLoading1={finishedLoading1} wasClicked={wasClicked} classActive={classActive}/>
       :
-          <Second/>
+          <Second setFinishedLoading2={setFinishedLoading2} finishedLoading2={finishedLoading2} />
       }
     </div>
   );
