@@ -1,9 +1,9 @@
 import React from 'react';
 import '../First/First.css';
 
-const Second = ({finishedLoading2, setFinishedLoading2, route}) => {
+const Second = ({finishedLoading2, setFinishedLoading2}) => {
     const showFog2 = () => {
-        if (!finishedLoading2 || route !=='first') {
+        if (!finishedLoading2) {
             setTimeout(hideFog, 2000);
             return (
                 <div>
