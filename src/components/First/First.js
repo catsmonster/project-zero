@@ -25,7 +25,7 @@ const First = ({classActive, wasClicked, finishedLoading1, setFinishedLoading1})
 
     const showFog1 = () => {
         if (!finishedLoading1) {
-            setTimeout(hideFog, 2000);
+            setTimeout(hideFog, 1500);
             return (
                 <div>
                     <div className={`fog2`}>
