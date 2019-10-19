@@ -24,11 +24,11 @@ function App() {
 
   return (
     <div className='App'>
-      <Nav setFinishedLoading1={setFinishedLoading1} setFinishedLoading2={setFinishedLoading2} setWasClicked={setWasClicked} wasClicked={wasClicked} setClassActive={setClassActive} onRouteChange={onRouteChange}/>
+      <Nav route={route} setFinishedLoading1={setFinishedLoading1} setFinishedLoading2={setFinishedLoading2} setWasClicked={setWasClicked} wasClicked={wasClicked} setClassActive={setClassActive} onRouteChange={onRouteChange}/>
       {route === 'first'?
-          <First setFinishedLoading1={setFinishedLoading1} finishedLoading1={finishedLoading1} wasClicked={wasClicked} classActive={classActive}/>
+          <First route={route} setFinishedLoading1={setFinishedLoading1} finishedLoading1={finishedLoading1} wasClicked={wasClicked} classActive={classActive}/>
       :
-          <Second setFinishedLoading2={setFinishedLoading2} finishedLoading2={finishedLoading2} />
+          <Second route={route} setFinishedLoading2={setFinishedLoading2} finishedLoading2={finishedLoading2} />
       }
     </div>
   );

@@ -26,6 +26,7 @@ const Second = ({finishedLoading2, setFinishedLoading2}) => {
             <div className='newClass'>
             </div>
             <div className='state2'>
+                <p>this is a paragraph on the second page</p>
             </div>
         </div>
     );
