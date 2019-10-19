@@ -2,11 +2,20 @@ import React from 'react';
 import './First.css';
 
 const First = ({classActive, wasClicked, finishedLoading1, setFinishedLoading1}) => {
+
+    const addNewClassDiv = () => {
+        if (!finishedLoading1 && wasClicked) {
+            return (
+                <div className='newClass1'>
+                </div>
+            );
+        }
+    };
+
     const setFirstState = () => {
         return (
             <div>
-                <div className='newClass1'>
-                </div>
+                {addNewClassDiv()}
                 <div className={`state1 ${classActive}`}>
                     <p>this is a paragraph on the fist page</p>
                 </div>
