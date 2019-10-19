@@ -8,6 +8,7 @@ const First = ({classActive, wasClicked, finishedLoading1, setFinishedLoading1})
                 <div className='newClass1'>
                 </div>
                 <div className={`state1 ${classActive}`}>
+                    <p>this is a paragraph on the fist page</p>
                 </div>
             </div>
         );

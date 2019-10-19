@@ -23,3 +23,14 @@ body {
 .App-link {
   color: #09d3ac;
 }
+
+@media all and (max-width: 500px) {
+  body{
+    overflow: hidden;
+  }
+}
+@media all and (max-height: 500px) {
+  body{
+    overflow: hidden;
+  }
+}
